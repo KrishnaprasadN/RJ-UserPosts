@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #61dafb;
+}
+
+.Footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: burlywood;
+}
+
+.Body {
+  height: 80vh;
+  width: 100vw;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
 }
